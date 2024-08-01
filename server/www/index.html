@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Workshop</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="page">
+            <h1 id="title">Login Form</h1>
+            <div id="loginpage">
+                <form id="loginform">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" />
+
+                    <label for="upwd">Password</label>
+                    <input type="password" name="upwd" id="upwd" />
+
+                    <button id="submitButton" type="submit">Login</button>
+                </form>
+            </div>
+
+            <div id="errormsg" class="hidemessage">User credentials do not match</div>
+        </div>
+        <div id="resultContainer">
+            <div id="postResultDiv"></div>
+        </div>
+    </div>
+</body>
+</html>
